@@ -1,0 +1,37 @@
+.formContainer {
+  display: grid;
+  grid-template-columns: 20% auto;
+  grid-gap: 10px;
+  padding: 25px;
+  border-radius: 10px;
+  /* box-shadow: 0 0 8px 0; */
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  background: white;
+}
+
+.preview {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 10px;
+  padding: 25px;
+  border-radius: 10px;
+  /* box-shadow: 0 0 8px 0; */
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  background: white;
+}
+.container {
+  position: relative;
+}
+
+.actions {
+  display: none; /* Initially hide the div */
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.container:hover .actions {
+  display: block; /* Show the div on hover */
+}

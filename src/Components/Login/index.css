@@ -1,0 +1,81 @@
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #dfdddcad;
+  margin-left: 15vw;
+  padding: 15px;
+  border-radius: 10px;
+  width: 22vw;
+  height: 45vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.mainLogin {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url("/../extra-work/public/LS.jpg");
+  backdrop-filter: blur(5000px);
+  -webkit-backdrop-filter: blur(5000px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+}
+
+.CreateAccount {
+  color: #98442a;
+}
+.CreateAccount:hover {
+  color: #304e32;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 70%;
+}
+.inputs input {
+  padding: 7px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.LoginBTN {
+  background-color: #464259;
+  color: white;
+  border-radius: 15px !important;
+}
+
+.Login {
+  font-size: 35px;
+  text-align: left !important;
+  color: #464259;
+  font-weight: bolder;
+  margin: 10px 0;
+  height: 30%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* .input-container {
+  display: flex;
+  align-items: center;
+
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.icon {
+  position: absolute;
+  color: #555; 
+}
+
+input[type="text"] {
+  border: none;
+  outline: none;
+  padding-left: 20px !important;
+  flex: 1;
+  padding: 5px;
+  font-size: 16px;
+} */

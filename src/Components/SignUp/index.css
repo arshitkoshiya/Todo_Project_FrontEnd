@@ -1,0 +1,61 @@
+.signUpContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #dfdddcad;
+  padding: 15px;
+  margin-left: 15vw;
+  border-radius: 10px;
+  width: 22vw;
+  height: 50vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.mainSignUp {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url("/../extra-work/public/LS.jpg");
+  backdrop-filter: blur(5000px);
+  -webkit-backdrop-filter: blur(5000px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+}
+.signUpAccount {
+  color: #98442a;
+}
+.signUpAccount:hover {
+  color: #304e32;
+}
+.signUp {
+  font-size: 35px;
+  text-align: left !important;
+  color: #464259;
+  font-weight: bolder;
+  margin: 10px 0;
+  height: 30%;
+  font-family: "Times New Roman", Times, serif;
+}
+.accountLogin {
+  display: flex;
+  flex-direction: row;
+}
+.OTPBtn {
+  background-color: #464259;
+  color: white;
+  border-radius: 15px !important;
+}
+
+/* CSS to hide the number input arrows */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-clear-button {
+  display: none;
+}
+.error {
+  color: red;
+  font-size: smaller;
+  margin: 1px;
+  height: 7px;
+}

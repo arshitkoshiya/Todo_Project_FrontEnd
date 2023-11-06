@@ -1,0 +1,12 @@
+.tasks{
+    border: 1px solid black !important;
+    height: 40vh !important;
+}
+.all_card{
+    padding: 5px !important;
+}
+.action{
+    display: flex !important;
+    justify-content: space-evenly !important;
+    height: 10% !important;
+}

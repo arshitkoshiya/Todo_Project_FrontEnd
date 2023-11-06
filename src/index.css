@@ -5,6 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Hide the vertical scrollbar */
+  background: #0077ff07 !important;
+
+
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+
+/* Hide the horizontal scrollbar (if needed) */
+::-webkit-scrollbar-thumb {
+  display: none;
 }
 
 code {
